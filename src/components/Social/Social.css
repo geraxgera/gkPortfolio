@@ -1,0 +1,39 @@
+/* src/social.css */
+.social {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    height: 500px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+  .slide img {
+    width: 100%;
+    display: block;
+  }
+  
+  .social-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    border-radius: 50%;
+    z-index: 10;
+    width: 50px;
+  }
+  
+  .social-button.prev {
+    left: 10px;
+  }
+  
+  .social-button.next {
+    right: 10px;
+  }
+  
