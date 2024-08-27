@@ -63,4 +63,7 @@
     .about-right{
         flex-basis: 100%;
     }
+    .email{
+        font-size: 17px;
+    }
 }
